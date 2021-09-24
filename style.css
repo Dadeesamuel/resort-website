@@ -9,7 +9,16 @@ a {
 h1 {
     color:  white;
     border: yellow;
+    background-color: sienna;
 }
 h3 {
     color: red;
 }
+ p {
+     text-align: center;
+
+ }
+ .many {
+     text-align: left;
+ }
+     
