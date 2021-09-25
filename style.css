@@ -1,6 +1,7 @@
 body {
-    background-color: coral;
-    text-align: center;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet ) ;
+    
+  
 
 }
 a {
@@ -14,11 +15,171 @@ h1 {
 h3 {
     color: red;
 }
- p {
-     text-align: center;
+h2 {
+    color: black;
+    
+    font-size: 50px;
+}
 
- }
- .many {
-     text-align: left;
- }
-     
+.various{
+  
+    width: 300px ;
+    font-weight: bold;
+    font-size:xx-large;
+    
+    
+ 
+    
+    background-color: rgb(131, 112, 7);
+  border-radius: 20px;
+ text-align: center;
+}
+ul {
+    background-color: hsl(hue, saturation, lightness);
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: grey;
+    border-radius: 20px;
+    font-size: 10px;
+    position: fixed;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+li a:hover{
+    background-color: black;
+}
+.active{
+    background-color: rgb(43, 15, 201);
+}
+img{
+    width: 75%;
+}
+ol{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    text-align: center;
+
+}
+.welcome{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: justify;
+
+}
+div{
+    float: left;
+   padding: 15px;
+}
+.w{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 3px 3px red;
+
+    
+}
+p{
+    text-indent: 50px;
+}
+.h {
+    line-height: 0.1;
+    color:rgb(3, 26, 2);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    font-family: brush script -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.new-line {
+    border: black;
+    border-width: 50px;
+    color: cornflowerblue;
+    border-collapse:collapse;
+line-height: 50px;
+    background-color: rgb(3, 26, 2);
+}
+.price{
+    border-width:5px;
+    border-style: ridge;
+    border-radius: 20px;
+font-weight: bold;
+font-size: 30px;
+    background-color: springgreen;
+    text-align: center;
+
+}
+.contact{
+    border-width: 2px;
+    border-style: ridge;
+    border-radius: 20px;
+    background-color: rgb(243, 242, 241);
+    padding: 5px;
+    text-align: center;
+    width: 300px;
+    
+}
+.detail{
+    font-size: 150%;
+}
+.thank{
+    font-size: 200%;
+    font-style: italic;
+    text-align: center;
+}
+.direction{
+    font-size: 130%;
+}
+.findus{
+     border-width: 2px;
+    border-style: ridge;
+    border-radius: 20px;
+    background-color: rgb(20, 11, 1);
+    padding: 5px;
+    text-align: center;
+    color: white;
+    
+}
+.gallery {
+    border-width: 2px;
+    border-style: ridge;
+    border-radius: 20px;
+    background-color: rgb(20, 11, 1);
+    padding: 5px;
+    text-align: center;
+    color: white;
+    
+}
+.travel { text-align: center;
+font-weight: bolder;
+}
+.destination{
+    color: white;
+    text-align: center;
+    font-size: 200%;
+
+}
+.where {
+font-size: 150%;
+}
+.download{
+    text-align: center;
+    font-style: italic;
+    color: white;
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
