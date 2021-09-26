@@ -98,7 +98,7 @@ p{
     text-indent: 50px;
 }
 .h {
-    line-height: 0.1;
+  text-align: center;
     color:rgb(3, 26, 2);
     font-weight: 1700;
     font-style: italic;
